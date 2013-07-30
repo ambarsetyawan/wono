@@ -1,0 +1,371 @@
+
+
+
+.table-borderless td,
+.table-borderless tr,
+.table-borderless th{
+    border: 0 ;
+}
+.act{
+	background:#F9F9F9;
+}
+ #custom-search-form {
+	margin:0;
+	margin-top: 5px;
+	padding: 0;
+}
+#custom-search-form .search-query {
+	padding-right: 3px;
+	padding-right: 4px \9;
+	padding-left: 3px;
+	padding-left: 4px \9;
+}
+#custom-search-form button {
+	border: 0;
+	background: none;
+	/** belows styles are working good */
+	padding: 2px 5px;
+	margin-top: 2px;
+	position: relative;
+	left: -28px;
+}
+.tablecilik{
+	font-size:14px;
+}
+.brandlogo{
+	float:left;
+	display:block;
+	padding:10px 20px 10px;
+	margin-left:-20px;
+	font-size:20px;
+	font-weight:200;
+	color:#ffffff;
+	text-shadow:0 1px 0 #080808;
+}
+.wellku{
+	min-height:0px;
+	padding:15px 0px 20px 0px;
+	
+}
+.search-query:focus + button {
+	z-index: 3;
+}
+.marginhead{
+	margin-top:80px;
+}
+.dropdown-menu li>a:hover,.dropdown-menu li>a:focus,.dropdown-submenu:hover>a{
+	background:#00AFEF;
+}
+.nav-tabs.nav-stacked{
+	background:#EBEBEB;
+}
+.nav-tabs.nav-stacked >li>a:hover{
+	background-color:#00AFEF;
+	color:#ffffff;
+}
+.login{
+	margin-top:150px;
+	background-color:#fff;
+	box-shadow:0px 0px 5px #ccc;
+	border-radius:5px;
+	color: #555;
+	padding:30px;
+	font-size:11px;
+	margin-bottom:20px;
+}
+.kontensisi1{
+	background:#ffffff;
+	padding: 20px 20px 20px 20px;
+	text-align:justify;
+	height:250px;
+	
+}
+.kontensisi{
+	background:#ffffff;
+	padding: 20px 20px 20px 20px;
+	text-align:justify;
+	
+	
+}
+.gambar{
+	float:left;
+	padding: 5px 15px 15px 0px;
+}
+.footer{
+    background-color: #F2F2F2;
+	padding:10px;
+	text-align:center;
+	border-top: 1px solid #DFDFDF;
+	
+}
+.navbar-inner{
+	background:#EF7400;
+}
+
+.navbar-inverse{
+	background:#58BAE9;
+}
+.logo{
+	padding:30px 30px 30px 0px;
+}
+.logonav{
+	width:16px;
+}
+
+.kepalasidebar{
+	background:#58BAE9;
+	padding:10px;
+	color:#ffffff;
+}
+.kontensidebar{
+
+	padding: 10px 25px 10px 0px;
+	
+}
+ul.list li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #00AFEF;
+    text-transform: none;
+    line-height: 18px;
+    border-bottom: 1px dotted rgb(102, 102, 102);
+	list-style: none;
+}
+
+.label{
+	min-height:0px;
+	padding:10px;
+}
+.container-fluid{
+	margin-left:60px;
+	margin-right:60px;
+}
+body {
+		background: #E6E6E6 url(../img/bg_pattern.png);
+		color:#696767;
+}
+.box{
+	border-radius:6px;
+}
+
+.besar{
+	*border:1px solid #F5F5F5;
+	padding: 20px;
+	margin-top:30px;
+	border-radius:6px;
+	*background:#ffffff;
+	
+}
+
+.tinggi{
+	height:130px;
+}
+/**index**/
+
+/**footer**/
+.kaki{
+	background:#E0E0E0;
+	padding:10px;
+	margin-top:15px;
+	border-radius:6px;
+}
+.hakcipta{
+	text-align:center;
+	margin-top:10px;
+	color:#A5A5C5;
+}
+
+a:hover{
+	text-decoration:none;
+	color: #AAD8DD;
+}
+a{
+	color: #FF7518;
+}
+.icon-social {
+    background: url("../img/icon-social.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 32px;
+    margin: -1px 10px 0 0;
+    width: 32px;
+}
+.icon {
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon-kkc {
+    background-position: 0 -32px;
+}
+.icon-alanhar{
+    background-position: 0 -64px;
+}
+.icon-java{
+    background-position: 0 -96px;
+}
+.icon-ngaliyan{
+    background-position: 0 -128px;
+}
+.icon-dagangan{
+    background-position: 0 -160px;
+}
+em {
+    color: rgb(102, 102, 102);
+    display: block;
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 12px;
+}
+.note {
+    color: rgb(153, 153, 153);
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 16px;
+}
+/**guide**/
+
+.more {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 34px;
+	
+}
+
+#feed ul,
+#feed ul li {
+	margin: 0;
+	padding: 0;
+}
+
+#feed li.rssRow{
+	padding: 0px 0 3px 34px;
+	min-height: 16px;
+	border-top: 1px solid #eee;
+	background: url("../img/learnmore.png") 4px 15px no-repeat;
+	list-style:none;
+}
+#feed li.rssRow a {
+	font-size: 15px;
+	line-height: 13px;
+	font-family: "Open Sans",Calibri,Candara,Arial,sans-serif;
+	color: #FF7518;
+}
+#feed h4 {
+	font-weight: normal;
+	
+}
+
+#feed li.rssRow div.date {
+	color: #999;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+#katas p,
+#kbawah p {
+	font-size: 13px;
+	line-height: 20px;	
+}
+
+#katas {
+	padding: 0 10px 0px 100px;
+	background: #aad8dd url("../img/panduan.png") no-repeat 25px 15px;
+	border-radius: 6px;
+	margin: 0 0 20px;
+}
+
+#kbawah {
+	background: #dbedcd url("../img/pengetahuan.png") no-repeat 288px bottom;
+	border-radius: 8px;
+}
+#kbawah p {
+	clear: left;
+	margin: 5px 0 5px 25px;
+	width: 245px;
+	color: #859176;
+}
+
+#katas .learnmore_action a,
+#katas .learnmore_action a:visited,
+#kbawah .learnmore_action a,
+#kbawah .learnmore_action a:visited {
+	margin-right: 10px;
+	background-color: #fff;
+	border-radius: 15px;
+	color: #568387;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 3px 12px;
+}
+#katas .learnmore_action a:hover,
+#kbawah .learnmore_action a:hover {
+	transition-duration: .2s;
+	-webkit-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	-o-transition-duration: .2s;
+	background-color: #568387;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+}
+.hdr_learnmore_kb{
+	margin-left:20px;
+}
+.gabung:before, .gabung:after {
+    clear: both;
+    content: ".";
+    display: table;
+    height: 0;
+    visibility: hidden;
+}
+/**about**/
+.blue{
+	background:#3B5998;
+	height:20px;
+	margin: 20px -20px -20px -20px;
+	color: #fff;
+	padding:20px;
+	font-size:24px;
+}
+.coloroke{
+	background:#eee;
+	height:200px;
+}
+
+.light1 {
+
+	margin-top:40px;
+	
+}
+.light2{
+	color: rgb(119, 119, 119) !important;
+    font-weight: normal !important;
+	margin-top:40px;
+	padding: 0px 60px 0px -0px;
+}
+.carousel-control {
+	border: 0px;
+	background: none;
+	margin-top: 5px;
+}
+
+
+.plus a{
+	text-decoration:none;
+	display:block;
+	width:13px;
+	height:13px;
+	text-indent:-9999em;
+	background:transparent url('../img/plus.png') top left no-repeat;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.plus a:hover{
+	background:transparent url('../img/plus.png') bottom left no-repeat;
+}
+
+
